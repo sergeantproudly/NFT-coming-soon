@@ -1,0 +1,368 @@
+@charset "utf-8";
+@import 'reset';
+@import 'fonts';
+@import 'settings';
+
+body {
+	font-family: $font-first;
+	background: #000 url('../images/background.jpg') no-repeat center;
+	background-size: auto 80%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media (min-width: $adaptive-width-mobile) {
+		background-size: cover;
+	}
+
+	@media (min-width: $adaptive-width-desktop) {
+		background-image: url('../images/background_1440.jpg');
+	}
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+
+	@media (min-width: $adaptive-width-mobile) {
+		padding-bottom: 0;
+	}
+}
+
+h1 {
+	position: absolute;
+	top: 55px;
+	left: 50%;
+	font-size: 40px;
+	font-weight: 400;
+	visibility: hidden;
+	transform: translateX(-50%);
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 42px;
+	cursor: default;
+	text-transform: uppercase;
+
+	@media (min-width: $adaptive-width-mobile) {
+		font-size: 16px;
+		margin-bottom: 14px;
+	}
+}
+
+#countdown {
+	font-family: $font-second;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 1.167;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0 20px;
+	text-align: center;
+
+	@media (min-width: $adaptive-width-mobile) {
+		font-size: 40px;
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		font-size: 66px;
+	}
+}
+
+#logo-nft {
+	position: absolute;
+	top: 20px;
+	left: 18px;
+	display: block;
+	-webkit-tap-highlight-color: transparent;
+
+	@media (min-width: $adaptive-width-mobile) {
+		top: 24px;
+		left: 26px;
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		top: 25px;
+		left: 35px;
+		padding: 10px;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 2px #fff;
+	}
+
+	&:hover {
+		box-shadow: 0 0 0 0px #fff;
+	}
+
+	img {
+		color: #fff;
+		width: 39px;
+		height: 42px;
+		display: block;
+
+		@media (min-width: $adaptive-width-mobile) {
+			width: 59px;
+			height: 64px;
+		}
+
+		@media (min-width: $adaptive-width-tablet) {
+			width: 73px;
+			height: 79px;
+		}
+	}
+}
+
+#logo-hermitage {
+	position: absolute;
+	bottom: 23px;
+	right: 18px;
+	display: block;
+	width: 40px;
+	height: 51px;
+	color: #fff;
+
+	@media (min-width: $adaptive-width-mobile) {
+		bottom: 32px;
+		right: 26px;
+		width: 32px;
+		height: 42px;
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		bottom: 47px;
+		right: 49px;
+		width: 58px;
+		height: 75px;
+	}
+}
+
+#logo-hermitage-2021 {
+	position: absolute;
+	bottom: 25px;
+	left: 17px;
+	display: block;
+	width: 29px;
+	height: 50px;
+	color: #fff;
+
+	@media (min-width: $adaptive-width-mobile) {
+		bottom: 34px;
+		left: 35px;
+		width: 24px;
+		height: 41px;		
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		bottom: 49px;
+		left: 48px;
+		width: 43px;
+		height: 74px;		
+	}
+}
+
+#lang-link {
+	position: absolute;
+	top: 20px;
+	right: 16px;
+	border: 1px solid #e0e0e0;
+	text-decoration: none;
+	font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 90px;
+    height: 44px;
+    text-align: center;
+    padding: 14px 10px;
+    @include radius(100px);
+    -webkit-tap-highlight-color: transparent;
+
+    @media (min-width: $adaptive-width-mobile) {
+    	top: 37px;
+    	right: 30px;
+    	height: 40px;
+    	padding-top: 11px;
+    }
+
+    @media (min-width: $adaptive-width-tablet) {
+    	top: 50px;
+		right: 49px;
+		height: 44px;
+		padding-top: 14px;
+    }
+
+    &:focus {
+		box-shadow: 0 0 0 2px #fff;
+	}
+
+	&:hover {
+		box-shadow: 0 0 0 0px #fff;
+	}
+}
+
+#calendar-button {
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: -132px;
+	border: 1px solid #e0e0e0;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    font-family: $font-first;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    width: 216px;
+    height: 44px;
+    padding: 12px 10px 13px;
+    @include radius(100px);
+	cursor: pointer;
+	@include transitions(color, border-color);
+	-webkit-tap-highlight-color: transparent;
+
+	@media (min-width: $adaptive-width-mobile) {
+		bottom: 30px;
+		margin: 0;
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		bottom: 45px;
+	}
+
+	&:focus {
+		box-shadow: 0 0 0 2px #fff;
+	}
+
+	&:active {
+		box-shadow: 0 0 0 0px #fff;
+	}
+
+	&.act {
+		border-color: #404040;
+		color: #474747;
+		@include transitions(color, border-color);
+
+		&:focus {
+			box-shadow: 0 0 0 0px #fff;
+		}
+	}
+}
+
+#calendar-modal {
+	visibility: hidden;
+	position: fixed;
+	top: 50%; 
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 278px;
+	@include radius(20px);
+	color: #000;
+	text-align: center;
+	opacity: 0;
+	@include transitions(opacity, visibility);
+
+	@media (min-width: $adaptive-width-tablet) {
+		width: 544px;
+	}
+
+	&.visible {
+		visibility: visible;
+		opacity: 1;
+		@include transitions(opacity, visibility);
+	}
+
+	& > .inner {
+		position: relative;
+		padding: 37px 40px 53px;
+
+		@media (min-width: $adaptive-width-tablet) {
+			padding: 60px 68px 76px;			
+		}
+	}
+
+	.close {
+		display: none;
+		position: absolute;
+		top: 6px;
+		right: 8px;
+		width: 18px;
+		height: 18px;
+		box-sizing: content-box;
+		background: url('../images/ico_close.svg') no-repeat center;
+		font-size: 0;
+		cursor: pointer;
+		padding: 10px;
+		border: 0;
+		@include radius(20px);
+
+		@media (min-width: $adaptive-width-tablet) {
+			display: block;
+		}
+
+		&:focus {
+			box-shadow: 0 0 0 2px #000;
+		}
+
+		&:active {
+			box-shadow: 0 0 0 0px #000;
+		}
+	}
+
+	.title {
+		font-size: 14px;
+		text-transform: uppercase;
+		margin-bottom: 45px;
+
+		@media (min-width: $adaptive-width-tablet) {
+			margin-bottom: 20px;
+		}
+	}
+
+	ul {
+		display: block;
+		list-style-type: none;
+		cursor: default;
+
+		& > li {
+			display: block;
+			font-size: 24px;
+			margin-bottom: 24px;
+
+			@media (min-width: $adaptive-width-tablet) {
+				display: inline-block;
+				font-size: 18px;
+				margin-bottom: 0;
+				margin-left: 20px;
+			}
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			& > a {
+				color: #000;
+				text-decoration: none;
+				-webkit-tap-highlight-color: transparent;
+
+				&:hover,
+				&:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
