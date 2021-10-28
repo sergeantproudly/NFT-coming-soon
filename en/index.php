@@ -76,6 +76,6 @@
 
 	<a href="/" id="lang-link">Русский</a>
 
-	<script src="/assets/js/scripts.js?1"></script>
+	<script src="/assets/js/scripts.js?2"></script>
 </body>
 </html>
