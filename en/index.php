@@ -42,7 +42,7 @@
 
 	<main>
 		<h1>The opening of the exhibition "The Ethereal Aether. An Exhibition of Digital Art", The State Hermitage Museum</h1>
-		<h2>left until the opening</h2>
+		<h2>Exhibition opens in</h2>
 		<?php
 			$deadline = mktime(20, 0, 0, 11, 10, 2021);
 			$diff = $deadline - time();
