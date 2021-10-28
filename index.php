@@ -43,7 +43,14 @@
 	<main>
 		<h1>Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж</h1>
 		<h2>до открытия</h2>
-		<div id="countdown" data-date="<?php echo date('Y-m-d H:i:s') ?>"><span class="days">00</span>&nbsp;д. <span class="hours">00</span>&nbsp;ч. <span class="minutes">00</span>&nbsp;мин.</div>
+		<?php
+			$deadline = mktime(20, 0, 0, 11, 10, 2021);
+			$diff = $deadline - time();
+			$days = $diff > 0 ? floor($diff / 60 / 60 / 24) : 0;
+			$hours = $diff > 0 ? floor($diff / 60 / 60) % 24 : 0;
+			$minutes = $diff > 0 ? floor($diff / 60) % 60 : 0;
+		?>
+		<div id="countdown" data-date="<?php echo date('Y-m-d H:i:s') ?>"><span class="days"><?php echo $days < 10 ? '0' . $days : $days; ?></span>&nbsp;д. <span class="hours"><?php echo $hours < 10 ? '0' . $hours : $hours; ?></span>&nbsp;ч. <span class="minutes"><?php echo $minutes < 10 ? '0' . $minutes : $minutes; ?></span>&nbsp;мин.</div>
 	</main>
 
 	<a href="https://celestialhermitage.ru/" id="logo-nft"><img src="/assets/images/logo_nft.svg" alt="Логотип выставки «Небесный Эрмитаж»" title="Небесный Эрмитаж"></a>
