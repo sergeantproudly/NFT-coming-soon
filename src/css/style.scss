@@ -3,6 +3,18 @@
 @import 'fonts';
 @import 'settings';
 
+html {
+	min-width: 320px;
+	min-height: 330px;
+
+	@media (min-width: $adaptive-width-mobile) {
+		min-height: 250px;
+	}
+
+	@media (min-width: $adaptive-width-tablet) {
+		min-height: 360px;
+	}
+}
 body {
 	font-family: $font-first;
 	background: #000 url('../images/background.jpg') no-repeat center;
@@ -11,6 +23,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 
 	@media (min-width: $adaptive-width-mobile) {
 		background-size: cover;

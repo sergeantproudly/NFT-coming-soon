@@ -39,15 +39,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	var $minutes = $countdown.querySelector('.minutes');
 
 	if ($countdown.getAttribute('data-date')) {
-		var deadline = new Date($countdown.getAttribute('data-date'));
+		var current_date = new Date($countdown.getAttribute('data-date'));
 	} else {
-		var deadline = new Date(2021, 10, 10, 20);
+		var current_date = new Date();
 	}
-	//var deadline = new Date(2021, 9, 26, 20, 36);
+	var deadline = new Date(2021, 10, 10, 20);
 	var timerId = null;
 
 	function countdownTimer() {
-	    var diff = deadline - new Date();
+	    var diff = deadline - current_date;
 	    if (diff <= 0) {
 	      clearInterval(timerId);
 	      window.location.reload(true);
