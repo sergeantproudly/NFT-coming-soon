@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8"/>
-	<meta name="description" content="Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж"/>
+	<meta name="description" content="Открытие проекта «Незримый эфир. Выставка цифрового искусства», Небесный Эрмитаж"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
@@ -18,20 +18,20 @@
 	<meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
 	<meta name="theme-color" content="#000000">
 
-	<title>Добро пожаловать в небесный Эрмитаж</title>
+	<title>Добро пожаловать в Небесный Эрмитаж</title>
 
 	<meta property="og:image" content="https://celestialhermitage.ru/assets/images/og_preview.png">
-    <meta property="og:title" content="Добро пожаловать в небесный Эрмитаж">
+    <meta property="og:title" content="Добро пожаловать в Небесный Эрмитаж">
     <meta property="og:locale" content="ru_RU" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж" />
+    <meta property="og:description" content="Открытие проекта «Незримый эфир. Выставка цифрового искусства», Небесный Эрмитаж" />
     <meta property="og:url" content="https://celestialhermitage.ru/" />
     <meta property="og:site_name" content="" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж" />
-    <meta name="twitter:title" content="Добро пожаловать в небесный Эрмитаж" />
+    <meta name="twitter:description" content="Открытие проекта «Незримый эфир. Выставка цифрового искусства», Небесный Эрмитаж" />
+    <meta name="twitter:title" content="Добро пожаловать в Небесный Эрмитаж" />
     <meta name="twitter:image" content="https://celestialhermitage.ru/assets/images/og_preview.png" />
 
     <link rel="stylesheet" href="/assets/css/style.css?2"/>
@@ -41,7 +41,7 @@
 	<!-- Yandex.Metrika counter --> <script> (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(86136806, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/86136806" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
 	
 	<main>
-		<h1>Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж</h1>
+		<h1>Открытие проекта «Незримый эфир. Выставка цифрового искусства», Небесный Эрмитаж</h1>
 		<h2>до открытия</h2>
 		<?php
 			$deadline = mktime(20, 0, 0, 11, 10, 2021);
@@ -63,10 +63,10 @@
 		<div class="inner">
 			<div class="title">Выберите календарь</div>
 			<ul>
-				<li><a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6&amp;dates=20211110T170000Z/20211210T170000Z&amp;details=&amp;location=https://celestialhermitage.ru" target="_blank">Google</a></li>
-				<li><a href="http://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title=%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6&amp;st=20211110T200000Z&amp;dur=72000&amp;desc=&amp;in_loc=https://celestialhermitage.ru" target="_blank">Yahoo</a></li>
-				<li><a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:https://celestialhermitage.ru%0ADTSTART:20211110T170000Z%0ADTEND:20211210T170000Z%0ASUMMARY:%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%0ADESCRIPTION:%0ALOCATION:https://celestialhermitage.ru%0AEND:VEVENT%0AEND:VCALENDAR" target="_blank">iCal</a></li>
-				<li><a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:https://celestialhermitage.ru%0ADTSTART:20211110T170000Z%0ADTEND:20211210T170000Z%0ASUMMARY:%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%0ADESCRIPTION:%0ALOCATION:https://celestialhermitage.ru%0AEND:VEVENT%0AEND:VCALENDAR" target="_blank">Outlook</a></li>
+				<li><a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6&amp;dates=20211110T170000Z/20211210T170000Z&amp;details=&amp;location=https://celestialhermitage.ru" target="_blank">Google</a></li>
+				<li><a href="http://calendar.yahoo.com/?v=60&amp;view=d&amp;type=20&amp;title=%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6&amp;st=20211110T200000Z&amp;dur=72000&amp;desc=&amp;in_loc=https://celestialhermitage.ru" target="_blank">Yahoo</a></li>
+				<li><a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:http://carlsednaoui.github.io/add-to-calendar-buttons/generator/generator.html%0ADTSTART:20211110T170000Z%0ADTEND:20211210T170000Z%0ASUMMARY:%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%0ADESCRIPTION:%0ALOCATION:https://celestialhermitage.ru%0AEND:VEVENT%0AEND:VCALENDAR" target="_blank">iCal</a></li>
+				<li><a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0AURL:http://carlsednaoui.github.io/add-to-calendar-buttons/generator/generator.html%0ADTSTART:20211110T170000Z%0ADTEND:20211210T170000Z%0ASUMMARY:%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0%20%C2%AB%D0%9D%D0%B5%D0%B7%D1%80%D0%B8%D0%BC%D1%8B%D0%B9%20%D1%8D%D1%84%D0%B8%D1%80.%20%D0%92%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0%20%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B0%C2%BB,%20%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D1%8B%D0%B9%20%D0%AD%D1%80%D0%BC%D0%B8%D1%82%D0%B0%D0%B6%0ADESCRIPTION:%0ALOCATION:https://celestialhermitage.ru%0AEND:VEVENT%0AEND:VCALENDAR" target="_blank">Outlook</a></li>
 				<li><a href="https://calendar.yandex.ru/event/1643572192?applyToFuture=0&event_date=2021-11-10T17%3A00%3A00&layerId=2090899&show_date=2021-11-10" target="_blank">Яндекс</a></li>
 			</ul>
 
