@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var $minutes = $countdown.querySelector('.minutes');
 
 	if ($countdown.getAttribute('data-date')) {
-		var current_date = new Date($countdown.getAttribute('data-date'));
+		var current_date = parseInt($countdown.getAttribute('data-date') * 1000);
 	} else {
 		var current_date = new Date();
 	}
