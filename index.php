@@ -34,7 +34,7 @@
     <meta name="twitter:title" content="Добро пожаловать в небесный Эрмитаж" />
     <meta name="twitter:image" content="https://celestialhermitage.ru/assets/images/og_preview.png" />
 
-    <link rel="stylesheet" href="/assets/css/style.css?1"/>
+    <link rel="stylesheet" href="/assets/css/style.css?2"/>
 </head>
 
 <body>

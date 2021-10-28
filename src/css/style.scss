@@ -286,6 +286,7 @@ h2 {
 	color: #000;
 	text-align: center;
 	opacity: 0;
+	z-index: 1;
 	@include transitions(opacity, visibility);
 
 	@media (min-width: $adaptive-width-tablet) {
