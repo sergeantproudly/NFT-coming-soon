@@ -43,7 +43,7 @@
 	<main>
 		<h1>The opening of the exhibition "The Ethereal Aether. An Exhibition of Digital Art", The State Hermitage Museum</h1>
 		<h2>left until the opening</h2>
-		<div id="countdown" data-date="<?php date('Y-m-d H:i:s') ?>"><span class="days">00</span>&nbsp;d. <span class="hours">00</span>&nbsp;h. <span class="minutes">00</span>&nbsp;min.</div>
+		<div id="countdown" data-date="<?php echo date('Y-m-d H:i:s') ?>"><span class="days">00</span>&nbsp;d. <span class="hours">00</span>&nbsp;h. <span class="minutes">00</span>&nbsp;min.</div>
 	</main>
 
 	<a href="https://celestialhermitage.ru/en/" id="logo-nft"><img src="/assets/images/logo_nft.svg" alt="Exhibition «Celestial Hermitage» logo" title="Celestial Hermitage"></a>

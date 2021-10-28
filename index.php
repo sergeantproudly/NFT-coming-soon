@@ -43,7 +43,7 @@
 	<main>
 		<h1>Открытие выставки «Незримый эфир. Выставка цифрового искусства», Государственный Эрмитаж</h1>
 		<h2>до открытия</h2>
-		<div id="countdown" data-date="<?php date('Y-m-d H:i:s') ?>"><span class="days">00</span>&nbsp;д. <span class="hours">00</span>&nbsp;ч. <span class="minutes">00</span>&nbsp;мин.</div>
+		<div id="countdown" data-date="<?php echo date('Y-m-d H:i:s') ?>"><span class="days">00</span>&nbsp;д. <span class="hours">00</span>&nbsp;ч. <span class="minutes">00</span>&nbsp;мин.</div>
 	</main>
 
 	<a href="https://celestialhermitage.ru/" id="logo-nft"><img src="/assets/images/logo_nft.svg" alt="Логотип выставки «Небесный Эрмитаж»" title="Небесный Эрмитаж"></a>
