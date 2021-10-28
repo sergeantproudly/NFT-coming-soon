@@ -25,7 +25,7 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="The opening of the exhibition «The Ethereal Aether. An Exhibition of Digital Art», The State Hermitage Museum" />
-    <meta property="og:url" content="https://celestialhermitage.ru/" />
+    <meta property="og:url" content="https://celestialhermitage.ru/en/" />
     <meta property="og:site_name" content="" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
