@@ -20,7 +20,7 @@
 
 	<title>Welcome to the celestial Hermitage</title>
 
-	<meta property="og:image" content="https://celestialhermitage.ru/assets/images/og_preview.png">
+	<meta property="og:image" content="https://celestialhermitage.ru/assets/images/og_preview_en.png">
     <meta property="og:title" content="Welcome to the celestial Hermitage">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:description" content="The opening of the exhibition «The Ethereal Aether. An Exhibition of Digital Art», The State Hermitage Museum" />
     <meta name="twitter:title" content="Welcome to the celestial Hermitage" />
-    <meta name="twitter:image" content="https://celestialhermitage.ru/assets/images/og_preview.png" />
+    <meta name="twitter:image" content="https://celestialhermitage.ru/assets/images/og_preview_en.png" />
 
     <link rel="stylesheet" href="/assets/css/style.css?2"/>
 </head>
