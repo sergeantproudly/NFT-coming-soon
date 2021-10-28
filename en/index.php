@@ -50,7 +50,7 @@
 			$hours = $diff > 0 ? floor($diff / 60 / 60) % 24 : 0;
 			$minutes = $diff > 0 ? floor($diff / 60) % 60 : 0;
 		?>
-		<div id="countdown" data-date="<?php echo time() ?>"><span class="days"><?php echo $days < 10 ? '0' . $days : $days; ?></span>&nbsp;d. <span class="hours"><?php echo $hours < 10 ? '0' . $hours : $hours; ?></span>&nbsp;h. <span class="minutes"><?php echo $minutes < 10 ? '0' . $minutes : $minutes; ?></span>&nbsp;min.</div>
+		<div id="countdown"><span class="days"><?php echo $days < 10 ? '0' . $days : $days; ?></span>&nbsp;d. <span class="hours"><?php echo $hours < 10 ? '0' . $hours : $hours; ?></span>&nbsp;h. <span class="minutes"><?php echo $minutes < 10 ? '0' . $minutes : $minutes; ?></span>&nbsp;min.</div>
 	</main>
 
 	<a href="https://celestialhermitage.ru/en/" id="logo-nft"><img src="/assets/images/logo_nft.svg" alt="Exhibition «Celestial Hermitage» logo" title="Celestial Hermitage"></a>
